@@ -3,8 +3,6 @@ services:
     image: manim:dev
     container_name: python-dev
     hostname: PYTHON-DEV-HOST
-    stdin_open: true
-    tty: true
     volumes:
       - python_source:/opt/src
 
