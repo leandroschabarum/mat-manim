@@ -1,0 +1,11 @@
+services:
+  python-dev:
+    image: python-dev:latest
+    container_name: python-dev
+    hostname: PYTHON-DEV-HOST
+    volumes:
+      - python_source:/opt/src
+
+volumes:
+  python_source:
+    name: python_source
