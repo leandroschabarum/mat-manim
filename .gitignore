@@ -127,3 +127,33 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Applications
+*.app
+*.exe
+*.war
+
+# Large media files
+*.mp4
+*.tiff
+*.avi
+*.flv
+*.mov
+*.wmv
+
+# Others
+/.idea
+/.vscode
+tags
+*.swap
+*.swp
+*.rdb
+*.db
+*.csv
+*.ini
+*.sys
+*.config
+*.conf
+*.cnf
+*.cfg
+*.cf
