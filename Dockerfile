@@ -8,7 +8,7 @@ RUN apt install -y libcairo2-dev libpango1.0-dev ffmpeg pkg-config python3-dev g
 
 # Install Manim together with the project requirements
 COPY ./requirements.txt /tmp/
-RUN pip3 install -r /tmp/requirements.txt
+RUN pip install -r /tmp/requirements.txt
 
 WORKDIR /opt/src
 VOLUME [ "/opt/src" ]
