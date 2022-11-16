@@ -144,6 +144,7 @@ dmypy.json
 # Others
 /.idea
 /.vscode
+/media
 tags
 *.swap
 *.swp
