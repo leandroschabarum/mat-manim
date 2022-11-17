@@ -1,6 +1,6 @@
 services:
   python-dev:
-    image: python-dev:latest
+    image: manim:dev
     container_name: python-dev
     hostname: PYTHON-DEV-HOST
     volumes:
