@@ -120,3 +120,19 @@ class ApplyingDeterminantTransformation(LinearTransformationScene):
 class ExampleOne(ApplyingDeterminantTransformation):
     def getData(self):
         self.data = [[0.7, 0.8], [0.5, 1.2]]
+
+class ExampleTwo(ApplyingDeterminantTransformation):
+    def getData(self):
+        self.data = [[1, 1], [1, 1]]
+
+class ExampleThree(ApplyingDeterminantTransformation):
+    def getData(self):
+        self.data = [[1, 0.5], [0.3, 1]]
+
+class ExampleFour(ApplyingDeterminantTransformation):
+    def getData(self):
+        self.data = [[-0.7, 0.8], [-0.5, 1.2]]
+
+class ExampleFive(ApplyingDeterminantTransformation):
+    def getData(self):
+        self.data = [[0.7, -0.8], [0.5, -1.2]]
