@@ -1,5 +1,6 @@
 # https://docs.manim.community/en/stable/installation/linux.html
 FROM python:3.9-slim
+LABEL stage=manim_build
 USER root
 
 # Install Manim required dependencies
